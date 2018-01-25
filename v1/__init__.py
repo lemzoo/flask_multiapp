@@ -1,9 +1,9 @@
 from flask import Blueprint
 from flask.ext.restplus import Api
 
-from v1.endpoints import RouteAPI
+from v1.endpoints import HelloWorldAPI
 
-v1_blueprint = Blueprint('v1', __name__)
+blueprint = Blueprint('version 1', __name__)
 
-api_v1 = Api(v1_blueprint)
-api_v1.add_resource(RouteAPI, '/routes')
+api = Api(blueprint)
+api.add_resource(HelloWorldAPI, '/hello')
