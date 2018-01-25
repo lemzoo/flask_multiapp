@@ -1,0 +1,14 @@
+# User specific environment variables
+init.env
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
