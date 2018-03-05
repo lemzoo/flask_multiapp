@@ -1,4 +1,4 @@
-from flask.ext.restplus import Resource
+from flask_restful import Resource
 
 
 class HelloWorldAPI(Resource):

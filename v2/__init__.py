@@ -1,5 +1,5 @@
 from flask import Blueprint
-from flask.ext.restplus import Api
+from flask_restful import Api
 
 from v2.endpoints import HelloWorldAPI
 

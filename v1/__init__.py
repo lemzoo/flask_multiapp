@@ -1,5 +1,5 @@
 from flask import Blueprint
-from flask.ext.restplus import Api
+from flask_restful import Api
 
 from v1.endpoints import HelloWorldApiAuthResource
 from v1.endpoints import HelloWorldApiNoAuthResource

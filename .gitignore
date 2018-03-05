@@ -12,3 +12,6 @@ htmlcov/
 .tox/
 .coverage
 .cache
+
+# pytest file
+.pytest_cache/*

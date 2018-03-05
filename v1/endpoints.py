@@ -1,3 +1,5 @@
+# from flask_restplus import Resource
+
 from core import CoreResource, NoAuthCoreResource
 
 
@@ -8,4 +10,4 @@ class HelloWorldApiAuthResource(CoreResource):
 
 class HelloWorldApiNoAuthResource(NoAuthCoreResource):
     def get(self):
-        return 'hello world from V1.0 without authentication'
+        return {'message': 'hello world from V1.0 without authentication'}
